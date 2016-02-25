@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/t7780927/vagrant/ikejimi/ansible-core/.kitchen'
+let g:netrw_dirhist_2='/Users/t7780927/vagrant/ikejimi/ansible-core/test'
+let g:netrw_dirhist_3='/Users/t7780927/vagrant/ikejimi/ansible-core/group_vars/vs-onecms'
+let g:netrw_dirhist_4='/Users/t7780927/vagrant/ikejimi/ansible-test-httpd/roles/ansible-httpd'
+let g:netrw_dirhist_5='/Users/t7780927/test'
+let g:netrw_dirhist_6='/Volumes/Mac Ext-HD/vagrant-tower/.vagrant/machines/vm1/virtualbox'
+let g:netrw_dirhist_7='/Users/t7780927/vagrant/ikejimi/ansible-bundle-onecms/group_vars/dmo-onecms'
