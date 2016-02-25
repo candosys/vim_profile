@@ -1,0 +1,59 @@
+ 
+# edit aliases 
+alias edit_hosts='edit /etc/hosts'
+alias edit_httpd='edit /etc/apache2/httpd.conf'
+alias edit_php='edit /etc/php.ini'
+alias edit_vhosts='edit /etc/apache2/extra/httpd-vhosts.conf'
+ 
+# This alias reloads this file
+alias srcprf='. ~/.profile'
+alias editprf='vi /Users/t7780927/.profile'
+ 
+# This makes life easier
+
+alias ll='ls -lrt'
+alias l='ls -lrt | more'
+alias h='history | more'
+alias hl='history'
+alias cl='clear'
+alias vu='vagrant up'
+alias vs='vagrant status'
+alias vh='vagrant halt'
+alias vd='vagrant destroy'
+alias vr='vagrant reload'
+alias vp='vagrant provision'
+alias vg='vagrant ssh'
+alias co='git checkout'
+alias ci='git commit'
+alias gs='git status '
+alias gl='git log --pretty=oneline'
+alias gll='git log '
+alias ga='git add .'
+alias gb='git branch '
+alias gc='git commit -m '
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+alias gi='git update-index --assume-unchanged '
+alias got='git '
+alias get='git '
+alias gpm='git push origin master'
+alias pa='ssh portaladmin-kn-p1'
+
+# push all local git changes to the origin HEAD at2-dev
+alias gp='git push --set-upstream origin at2-dev'
+
+trap ". $HOME/.atexit" 0
+PATH=$PATH:/Users/t7780927/bin
+export PATH
+export ANSIBLE_HOSTS=~/ansible_hosts
+export ANSIBLE_TRANSPORT=ssh
+export ARCHFLAGS='-arch i386 -arch x86_64'
+export PYTHON_LIB_PATH=/Library/Python/2.7/site-packages:/Users/t7780927/ansible/lib:/private/var/root/perl5/lib/
+export PERL5LIB=/private/var/root/perl5/lib/perl5
+export ANSIBLE_NOCOWS=1
+export ANSIBLE_COW_SELECTION=none
+#export VAGRANT_HOME=/Volumes/VM_machine/vagrant_home
+export VAGRANT_HOME=/Users/t7780927
+
